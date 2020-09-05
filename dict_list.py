@@ -1,4 +1,5 @@
-# list
+"""
+# LIST
 phone = ["iphone", "samsung", "xiaomi"]
 print(len(phone))
 print(phone)
@@ -22,3 +23,11 @@ list[2:4]
 list.remove("python")
 len(list)
 list[2:5]
+"""
+
+# DICT
+dict = {"city": "Moscow", "temperature": "20"}
+dict["temperature"] = int(dict["temperature"])-5
+dict
+# {'city': 'Moscow', 'temperature': 15}
+
